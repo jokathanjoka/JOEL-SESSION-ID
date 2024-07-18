@@ -59,33 +59,19 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_QR Code Connected*
-*_Made With by Cod3Uchiha🤍_*
+*qr code connected*
+*by joel tech *
 ______________________________________
 ╔════◇
-║ FOR ALL COD3UCHIHA BOTS
-║ _Thanks for your support._
+║ JOEL MD NEW VISION 
+║ Thanks for your support.
 ╚════════════════════════╝
 ╔═════◇
-║  『••• ⬡𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽⬡ •••』
-║⬡ *Ytube:* _youtube.com/@Cod3Uchiha_
-║⬡ *Owner:* _https://wa.me/263785028126_
-║
-║⬡MY bot Repos⬡
-║
-║⬡ *TKM bot:* _https://github.com/Cod3Uchiha/TKM-bot_
-║⬡ *Manjiro-Sano-md:* _https://github.com/Cod3Uchiha/Manjiro-Sano-md_
-║
-║⬡Support channels⬡
-║
-║⬡ *COD3UCHIHA:* _https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g_
-║⬡ *TKM inc:* _https://whatsapp.com/channel/0029VadFn9M545v25zjEWI3I_
-║
-║⬡ *©Copyright* _Takudzwa-Mlambo|Cod3Uchiha
+║by joel kang'oma 
 ╚══════════════════════════════════╝
 _____________________________________
 	
-_Don't Forget To Give Star To My Repo_`
+_powered by joel tech `
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
 
